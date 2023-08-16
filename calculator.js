@@ -122,7 +122,7 @@ const submit = function(){
 
 const deleteButton = document.querySelector('.button.delete')
 deleteButton.addEventListener('click', ()=>{
-    displayValue = displayValue.slice(0, -1)
+    displayValue = displayValue.slice(0, -7)
     updateDisplayValue(displayValue)
 })
 deleteButton.addEventListener('mouseout', (e)=>{
